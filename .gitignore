@@ -1,0 +1,65 @@
+# Ignore all files by default, but scan all directories
+*
+!*/
+
+# C/C++ source files
+!*.c
+!*.cc
+!*.cpp
+!*.cpp.template
+!*.h
+!*.h.template
+!*.hpp
+!*.inl
+!*.inc
+!*.m
+!*.mm
+!*.rc
+!*.rc2
+!*.def
+!*.exp
+!*.manifest
+
+# C# source files
+!*.cs
+!*.cs.template
+
+# Other configuration and markup files
+!*.ini
+!*.json
+!*.tps
+!*.xml
+!*.xaml
+!*.uproject
+!*.uplugin
+!*.html
+!*.html.template
+!*.css
+!*.udn
+!*.config
+!*.version
+!.git*
+!.editorconfig
+
+# UE Assets
+!*.umap
+!*.uasset
+
+# Content folder
+!**/Content/**
+
+# Config folder
+!**/Config/**
+
+# Media folder
+!**/Media/**
+
+# Ignore VS / VS Code settings directory
+.vs
+.vscode
+
+# Ignore Other folder
+Intermediate
+DerivedDataCache
+Binaries
+Saved
